@@ -13,12 +13,13 @@ import Cart, {InfoProjectPropsType} from "../../components/Cart";
 
 const Projects = () => {
 
-    const ProjectInfo :InfoProjectPropsType  = {
+    const ProjectInfo = {
         img: photo,
         title: 'TITLE PROJECT',
         tecnologia: ['Javascript', 'PostgreSQL', 'React', 'redux'],
         info: 'Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.'
     };
+
 
     return (
         <ProjectsStyled>

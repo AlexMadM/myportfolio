@@ -1,18 +1,18 @@
 
 
 import styled from "styled-components";
-import React from "react";
+import React, {FC} from "react";
 
 
 
-export type InfoProjectPropsType = {
-    img: string;
-    title: string;
-    tecnologia: Array<string>;
-    info: string;
+export type InfoProjectPropsType  ={
+    img: string,
+    title: string,
+    tecnologia: Array<string>,
+    info: string,
 }
 
-const Cart : React.FC <{ ProjectInfo: InfoProjectPropsType }>= ({ProjectInfo}) => {
+const Cart : FC <{ ProjectInfo:InfoProjectPropsType }>= ({ProjectInfo}) => {
     return (
         <StyledCart>
             <ImgStyled src={ProjectInfo.img} alt=""/>
