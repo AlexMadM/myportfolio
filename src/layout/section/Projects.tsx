@@ -4,7 +4,8 @@ import styled from "styled-components";
 import photo from '../../assets/1.png'
 import {Container} from "../../components/Container";
 import {FlexWrapper} from "../../components/FlexWrapper";
-import Cart, {InfoProjectPropsType} from "../../components/Cart";
+import Cart from "../../components/Cart";
+
 
 
 
@@ -13,12 +14,18 @@ import Cart, {InfoProjectPropsType} from "../../components/Cart";
 
 const Projects = () => {
 
-    const ProjectInfo = {
+    const ProjectInfo =[ {
         img: photo,
         title: 'TITLE PROJECT',
-        tecnologia: ['Javascript', 'PostgreSQL', 'React', 'redux'],
+        technologies: ['Javascript', 'PostgreSQL', 'React', 'redux'],
         info: 'Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.'
-    };
+    },
+        {
+            img: photo,
+            title: 'TITLE PROJECT',
+            technologies: ['Javascript', 'PostgreSQL', 'React', 'redux'],
+            info: 'Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.'
+        }];
 
 
     return (
@@ -27,8 +34,8 @@ const Projects = () => {
             <Title>Projects</Title>
 
               <FlexWrapper>
-                  <Cart ProjectInfo={ProjectInfo}/>
-
+                  <Cart ProjectInfo={ProjectInfo[0]}/>
+                  <Cart ProjectInfo={ProjectInfo[1]}/>
               </FlexWrapper>
           </Container>
         </ProjectsStyled>

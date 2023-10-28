@@ -8,7 +8,7 @@ import React, {FC} from "react";
 export type InfoProjectPropsType  ={
     img: string,
     title: string,
-    tecnologia: Array<string>,
+    technologies: Array<string>,
     info: string,
 }
 
@@ -17,7 +17,7 @@ const Cart : FC <{ ProjectInfo:InfoProjectPropsType }>= ({ProjectInfo}) => {
         <StyledCart>
             <ImgStyled src={ProjectInfo.img} alt=""/>
             <Title>{ProjectInfo.title}</Title>
-            {ProjectInfo.tecnologia.map((i,index) => {
+            {ProjectInfo.technologies.map((i,index) => {
                 return <List>
                     <ListItem key={index}>
                         <a href="">{i}</a>
