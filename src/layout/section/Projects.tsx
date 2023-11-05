@@ -5,6 +5,7 @@ import photo from '../../assets/1.png'
 import {Container} from "../../components/Container";
 import {FlexWrapper} from "../../components/FlexWrapper";
 import Cart from "../../components/Cart";
+import Button, {StyledButton} from "../../components/Button";
 
 
 
@@ -37,6 +38,7 @@ const Projects = () => {
                   <Cart ProjectInfo={ProjectInfo[0]}/>
                   <Cart ProjectInfo={ProjectInfo[1]}/>
               </FlexWrapper>
+                <Button text={'SEE ALL PROJECTS'}/>
           </Container>
         </ProjectsStyled>
     );
@@ -45,9 +47,29 @@ const Projects = () => {
 
 const ProjectsStyled = styled.div`
 
+  
+  
+  
+  ${StyledButton}{
+    margin: 0 auto;
+    display: flex;
+    width: 305px;
+    height: 56px;
+    padding: 12px 20px 13px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+   
+  }
+
+
+
 `
 const Title = styled.h3`
 
 `
+
+
 
 export default Projects;
