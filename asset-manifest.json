@@ -1,18 +1,21 @@
 {
   "files": {
     "main.css": "/myportfolio/static/css/main.85e6eb32.css",
-    "main.js": "/myportfolio/static/js/main.01163612.js",
+    "main.js": "/myportfolio/static/js/main.793002e5.js",
     "static/js/787.25eaef86.chunk.js": "/myportfolio/static/js/787.25eaef86.chunk.js",
     "static/media/1.png": "/myportfolio/static/media/1.120508703189ce819aa1.png",
     "static/media/support 1.png": "/myportfolio/static/media/support 1.0620c83589e7ffecb96c.png",
     "static/media/sprite.svg": "/myportfolio/static/media/sprite.5d6906dbd60300eb0f6149b990e33fd5.svg",
+    "static/media/akar-icons_github-fill.svg": "/myportfolio/static/media/akar-icons_github-fill.93f69bab1574a143b7fe518985402289.svg",
+    "static/media/cib_gmail.svg": "/myportfolio/static/media/cib_gmail.76fdbb61e01cf3f96cefefaa2e23210c.svg",
     "index.html": "/myportfolio/index.html",
+    "static/media/Vector.svg": "/myportfolio/static/media/Vector.e87a9c7025c743bec4e16aaedd5f0564.svg",
     "main.85e6eb32.css.map": "/myportfolio/static/css/main.85e6eb32.css.map",
-    "main.01163612.js.map": "/myportfolio/static/js/main.01163612.js.map",
+    "main.793002e5.js.map": "/myportfolio/static/js/main.793002e5.js.map",
     "787.25eaef86.chunk.js.map": "/myportfolio/static/js/787.25eaef86.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.85e6eb32.css",
-    "static/js/main.01163612.js"
+    "static/js/main.793002e5.js"
   ]
 }
