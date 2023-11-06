@@ -8,5 +8,10 @@ export const theme ={
         font:'#1F2626',
         borderColor:'#4A4A4A',
         placeholdeColor:'#495057'
-    }
+    },
+media:{
+
+        mobile: ' screen and (max-width:400px)'
+
+},
 }

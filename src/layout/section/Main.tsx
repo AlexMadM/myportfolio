@@ -2,6 +2,7 @@ import styled from "styled-components";
 import photo from '../../assets/support 1.png'
 import {FlexWrapper} from "../../components/FlexWrapper";
 import Button from "../../components/Button";
+import {theme} from "../../styles/Theme";
 
 
 const Main = () => {
@@ -40,6 +41,11 @@ const StyledMain = styled.div`
   & div{
     align-self: center;
   }
+  @media ${theme.media.mobile}{
+   ${FlexWrapper}{
+     flex-wrap: wrap;
+   }
+  }
 `
 
 
@@ -63,5 +69,9 @@ const Name = styled.h2`
 `
 const Photo = styled.img`
 margin: 0;
+  @media ${theme.media.mobile}{
+    width:320px;
+    height:230px;
+  }
 `
 export default Main;

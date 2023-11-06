@@ -3,6 +3,7 @@
 import styled from "styled-components";
 import React, {FC} from "react";
 import {FlexWrapper} from "./FlexWrapper";
+import {theme} from "../styles/Theme";
 
 
 
@@ -47,10 +48,16 @@ padding: 0;
 
 const ImgStyled = styled.img`
   width: 522px;
+  width: 100%;
   height: 388px;
+  
   flex-shrink: 0;
   object-fit: cover;
   border-radius: 4px;
+  @media ${theme.media.mobile}{
+    height:300px;
+    }
+  }
 `
 const Title = styled.h3`
   color:#151717;

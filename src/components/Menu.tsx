@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import Button from "./Button";
 import {FlexWrapper} from "./FlexWrapper";
+import {theme} from "../styles/Theme";
 
 
 const Menu = () => {
@@ -29,6 +30,10 @@ const StyledMenu = styled.nav`
 const NavList = styled.ul`
   display: flex;
   gap: 750px;
+  @media ${theme.media.mobile}{
+   gap: 110px;
+    }
+  }
   
 list-style: none;
    

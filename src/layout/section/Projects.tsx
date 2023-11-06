@@ -6,6 +6,7 @@ import {Container} from "../../components/Container";
 import {FlexWrapper} from "../../components/FlexWrapper";
 import Cart from "../../components/Cart";
 import Button, {StyledButton} from "../../components/Button";
+import {theme} from "../../styles/Theme";
 
 
 
@@ -47,7 +48,11 @@ const Projects = () => {
 
 const ProjectsStyled = styled.div`
 
-  
+  @media ${theme.media.mobile}{
+    ${FlexWrapper}{
+      flex-wrap: wrap;
+    }
+  }
 
   
   ${StyledButton}{
