@@ -6,12 +6,12 @@ import {FlexWrapper} from "./FlexWrapper";
 const Menu = () => {
     return (
         <StyledMenu>
-            <FlexWrapper justify={'space-between'}>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Projects</a></li>
-                </ul>
-            </FlexWrapper>
+
+                <NavList>
+                    <NavItem><a href="#">Home</a></NavItem>
+                    <NavItem><a href="#">Projects</a></NavItem>
+                </NavList>
+
                 <Button text={'Contact'}/>
 
         </StyledMenu>
@@ -19,32 +19,35 @@ const Menu = () => {
 };
 
 const StyledMenu = styled.nav`
-
-  display: flex;
-  align-items: center;
-justify-content: space-between;
-
-
-  ul {
     display: flex;
-    flex-direction: row;
- 
-    list-style: none;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+  margin-bottom: 140px;
+`
 
- 
+const NavList = styled.ul`
+  display: flex;
+  gap: 750px;
   
-
-    a  {
-      text-decoration: none;
-      font-family: Montserrat;
-      font-size: 16px;
-      font-weight: 500;
-    }
+list-style: none;
+   
 
 
+`
+
+const NavItem = styled.li`
+
+  & a {
+    color:  #1F2626;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration: none;
+   
   }
- 
-
 `
 
 export default Menu;

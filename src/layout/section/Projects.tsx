@@ -9,24 +9,24 @@ import Button, {StyledButton} from "../../components/Button";
 
 
 
-
+const ProjectInfo =[ {
+    img: photo,
+    title: 'TITLE PROJECT',
+    technologies: ['Javascript', 'PostgreSQL', 'React', 'redux'],
+    info: 'Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.'
+},
+    {
+        img: photo,
+        title: 'I N S I G H T G R A M',
+        technologies: ['Javascript', 'REACT NATIVE', 'redux'],
+        info: 'Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.'
+    }];
 
 
 
 const Projects = () => {
 
-    const ProjectInfo =[ {
-        img: photo,
-        title: 'TITLE PROJECT',
-        technologies: ['Javascript', 'PostgreSQL', 'React', 'redux'],
-        info: 'Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.'
-    },
-        {
-            img: photo,
-            title: 'TITLE PROJECT',
-            technologies: ['Javascript', 'PostgreSQL', 'React', 'redux'],
-            info: 'Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.'
-        }];
+
 
 
     return (
@@ -34,7 +34,7 @@ const Projects = () => {
             <Container>
             <Title>Projects</Title>
 
-              <FlexWrapper>
+              <FlexWrapper  gap={'27px'}>
                   <Cart ProjectInfo={ProjectInfo[0]}/>
                   <Cart ProjectInfo={ProjectInfo[1]}/>
               </FlexWrapper>
@@ -48,10 +48,10 @@ const Projects = () => {
 const ProjectsStyled = styled.div`
 
   
-  
+
   
   ${StyledButton}{
-    margin: 0 auto;
+    margin: 30px  auto 0 auto;
     display: flex;
     width: 305px;
     height: 56px;
@@ -60,12 +60,14 @@ const ProjectsStyled = styled.div`
     align-items: center;
     gap: 10px;
     flex-shrink: 0;
+    
    
   }
 
-
-
+  
 `
+
+
 const Title = styled.h3`
 
 `

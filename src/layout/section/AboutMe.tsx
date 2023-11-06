@@ -16,7 +16,7 @@ const AboutMe = () => {
 
 
 const  ProjectsStyled =styled.div`
-
+  margin:   265px 0px 140px 0px;
 `
 
 const Title = styled.h3`

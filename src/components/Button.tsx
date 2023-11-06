@@ -14,10 +14,12 @@ const Button = (props:ButtonPropsType) => {
 };
 
  export const StyledButton = styled.button`
+
 padding: 12px 20px;
   border-radius: 6px;
   background: #5222D0;
   color: #DBFFFF;
+
 `
 
 export default Button;

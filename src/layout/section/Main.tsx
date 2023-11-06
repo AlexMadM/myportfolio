@@ -28,6 +28,18 @@ const StyledMain = styled.div`
   margin: 0 auto;
   background-color: #F9FAFF;
   color: #828282;
+  & span{
+    color:#151717;
+    font-family: Tinos;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  
+  & div{
+    align-self: center;
+  }
 `
 
 
@@ -50,6 +62,6 @@ const Name = styled.h2`
 
 `
 const Photo = styled.img`
-
+margin: 0;
 `
 export default Main;
