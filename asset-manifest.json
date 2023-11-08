@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/myportfolio/static/css/main.e6c13ad2.css",
-    "main.js": "/myportfolio/static/js/main.efc495e2.js",
+    "main.js": "/myportfolio/static/js/main.09148544.js",
     "static/js/787.25eaef86.chunk.js": "/myportfolio/static/js/787.25eaef86.chunk.js",
     "static/media/sprite_footer.svg": "/myportfolio/static/media/sprite_footer.0e04e4de93ba87bb656f26888da0f002.svg",
     "static/media/reebok_web.png": "/myportfolio/static/media/reebok_web.efe191550cfb2ceb1aad.png",
@@ -10,11 +10,11 @@
     "static/media/sprite_skills.svg": "/myportfolio/static/media/sprite_skills.3327cb0853b30b267a66f3069592c404.svg",
     "index.html": "/myportfolio/index.html",
     "main.e6c13ad2.css.map": "/myportfolio/static/css/main.e6c13ad2.css.map",
-    "main.efc495e2.js.map": "/myportfolio/static/js/main.efc495e2.js.map",
+    "main.09148544.js.map": "/myportfolio/static/js/main.09148544.js.map",
     "787.25eaef86.chunk.js.map": "/myportfolio/static/js/787.25eaef86.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.efc495e2.js"
+    "static/js/main.09148544.js"
   ]
 }
