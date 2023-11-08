@@ -1,21 +1,20 @@
 {
   "files": {
-    "main.css": "/myportfolio/static/css/main.85e6eb32.css",
-    "main.js": "/myportfolio/static/js/main.2db9b6bc.js",
+    "main.css": "/myportfolio/static/css/main.e6c13ad2.css",
+    "main.js": "/myportfolio/static/js/main.efc495e2.js",
     "static/js/787.25eaef86.chunk.js": "/myportfolio/static/js/787.25eaef86.chunk.js",
-    "static/media/1.png": "/myportfolio/static/media/1.120508703189ce819aa1.png",
-    "static/media/support 1.png": "/myportfolio/static/media/support 1.0620c83589e7ffecb96c.png",
-    "static/media/sprite.svg": "/myportfolio/static/media/sprite.5d6906dbd60300eb0f6149b990e33fd5.svg",
-    "static/media/akar-icons_github-fill.svg": "/myportfolio/static/media/akar-icons_github-fill.93f69bab1574a143b7fe518985402289.svg",
-    "static/media/cib_gmail.svg": "/myportfolio/static/media/cib_gmail.76fdbb61e01cf3f96cefefaa2e23210c.svg",
+    "static/media/sprite_footer.svg": "/myportfolio/static/media/sprite_footer.0e04e4de93ba87bb656f26888da0f002.svg",
+    "static/media/reebok_web.png": "/myportfolio/static/media/reebok_web.efe191550cfb2ceb1aad.png",
+    "static/media/slise8.png": "/myportfolio/static/media/slise8.36ad24e6b03244cf65e0.png",
+    "static/media/88.png": "/myportfolio/static/media/88.c6325dc8a77849ef6ef3.png",
+    "static/media/sprite_skills.svg": "/myportfolio/static/media/sprite_skills.3327cb0853b30b267a66f3069592c404.svg",
     "index.html": "/myportfolio/index.html",
-    "static/media/Vector.svg": "/myportfolio/static/media/Vector.e87a9c7025c743bec4e16aaedd5f0564.svg",
-    "main.85e6eb32.css.map": "/myportfolio/static/css/main.85e6eb32.css.map",
-    "main.2db9b6bc.js.map": "/myportfolio/static/js/main.2db9b6bc.js.map",
+    "main.e6c13ad2.css.map": "/myportfolio/static/css/main.e6c13ad2.css.map",
+    "main.efc495e2.js.map": "/myportfolio/static/js/main.efc495e2.js.map",
     "787.25eaef86.chunk.js.map": "/myportfolio/static/js/787.25eaef86.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.85e6eb32.css",
-    "static/js/main.2db9b6bc.js"
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.efc495e2.js"
   ]
 }
