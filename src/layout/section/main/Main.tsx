@@ -11,7 +11,10 @@ const Main = () => {
                 <FlexWrapper justify={'space-between'}>
                     <S.Title>A.DORGO<br/>TOVSKYI</S.Title>
                     <S.Text>Web | Developer 35 years old,Donetsk</S.Text>
-                    <span>RU | ENG</span>
+                    <S.Flex  >
+                        <S.Lang>ENG</S.Lang>
+                        <S.Lang>RU |</S.Lang>
+                        </S.Flex>
                 </FlexWrapper>
                 <S.Image src={photo}/>
 

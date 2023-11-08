@@ -3,17 +3,7 @@ import styled from "styled-components";
 const Main = styled.div`
  
 margin-top: 40px;
- span {
-  align-self: center;
-   transform: rotate(-90deg);
-   color: #828282;
-
-   font-family: Gilroy-Bold;
-   font-size: 16px;
-   font-style: normal;
-   font-weight: 400;
-   line-height: normal;
-}`
+ `
 
 const Title = styled.h2`
   width: 123.513px;
@@ -46,11 +36,33 @@ opacity: 0.9;
  
 
 `
+const Lang = styled.button`
+  align-self: center;
+  transform: rotate(-90deg);
+  color: #828282;
 
+  font-family: Gilroy-Bold;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  &:hover{
+    color:#070707;
+  }
+`
+const Flex = styled.div`
+  justify-content: center;
+    display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+`
 
 export const S = {
     Main,
     Title,
     Text,
-    Image
+    Image,
+    Lang,
+    Flex
 }
