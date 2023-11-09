@@ -33,6 +33,7 @@ opacity: 0.9;
   width: 943.612px;
   object-fit: cover;
   height: 387px;
+  max-width: 100%;
  
 
 `
