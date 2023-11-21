@@ -6,12 +6,12 @@ margin-top: 40px;
  `
 
 const Title = styled.h2`
-  width: 123.513px;
+  width: 123.510px;
   height: auto;
 
   color: #070707;
   font-family: Gilroy-Bold;
-  font-size: 47.339px;
+  font-size: 47.340px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;`
